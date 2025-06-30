@@ -1,0 +1,83 @@
+.moduleanchor{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 85%;
+    border: 1px solid;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+    border-radius: 0.8rem;
+    background-color: rgb(63, 126, 175);
+    transition: transform 0.3s ease;
+    color: white;
+    font-family: "Pacifico", cursive;
+}
+
+.moduleheading{
+    font-size:2.5rem;
+    color:rgb(0, 67, 128);
+    font-family: "papyrus" , fantasy;
+}
+
+.modules{
+    margin-top: 15rem;
+    margin-left: 12rem;
+}
+
+.moduleanchor:hover{
+    background-color: rgb(0, 67, 128);
+    transition: transform 0.3s ease;
+    transform: scale(1.04);
+}
+
+.anchorsubmit{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 85%;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+    border-radius: 0.8rem;
+    color: black;
+    transition: transform 0.3s ease;
+    font-family: "Pacifico", cursive;
+}
+
+.anchorsubmit:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.04);
+}
+#modules {
+  scroll-margin-top: 8rem;
+}
+
+@media (max-width: 868px) {
+    .moduleheading{
+        font-size: 1.5rem;
+    }
+    .moduleanchor{
+        height: 5rem;
+        width: 80%;
+        font-size:1.1rem;
+        margin-top: 0.5rem;
+        padding: 0 1rem;
+    }
+    .anchorsubmit{
+        height: 5rem;
+        width: 80%;
+        font-size:1.1rem;
+        margin-top: 0.5rem;
+        padding: 0 1rem;
+    }
+    .modules{
+        margin-top: 28rem;
+        margin-left: 2rem;
+    }
+}

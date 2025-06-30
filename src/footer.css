@@ -1,0 +1,45 @@
+.footer{
+    text-align:center;
+    font-family: 'Pacifico' ,cursive;
+}
+
+.followus{
+    font-size: 1.5rem;
+}
+
+.icon{
+    color: rgb(37, 94, 154);
+    font-size: 1.8rem;
+}
+
+.iconmargin{
+    margin-left: 2rem;
+}
+
+.rights{
+    display:flex;
+    justify-content:space-evenly;
+}
+.desktop{
+    font-size:1.5rem;
+}
+
+.mobile{
+    font-size:1.1rem;
+}
+
+.rightcolor{
+    color: rgb(37, 94, 154);
+}
+
+@media (max-width: 868px) {
+    .followus{
+        font-size: 1.5rem;
+    }
+    .contact{
+        font-size: 1.5rem;
+    }
+    .iconmargin{
+        margin-left: 1.2rem;
+    }
+}
