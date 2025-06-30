@@ -2,7 +2,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import './intro.css';
 
 export default function intro(){
-    const isMobile = useMediaQuery('(max-width:768px)');
+    const isMobile = useMediaQuery('(max-width:1245px)');
 
     return(
         <>

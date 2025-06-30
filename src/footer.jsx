@@ -7,7 +7,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import './footer.css';
 
 export default function footer(){
-    const isMobile = useMediaQuery('(max-width:768px)');
+    const isMobile = useMediaQuery('(max-width:1245px)');
 
     return (
         <div className='footer' id='connect'>

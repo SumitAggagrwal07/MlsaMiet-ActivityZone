@@ -121,3 +121,24 @@
   }
 }
 
+@media (max-width: 1245px) and (min-width: 768px) {
+  .show-button{
+    margin-top:30rem;
+    font-size: 4rem;
+  }
+  .cards-container{
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .card{
+    margin-top: 4rem;
+  }
+  .cardimg{
+    height: 15rem;
+    width: 15rem;
+  }
+  .cardtext{
+    height: 10rem;
+    font-size: 2rem;
+  }
+}

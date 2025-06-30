@@ -35,6 +35,8 @@ function App() {
       <Intro />
       <Modules />
       <Cards />
+      <br></br>
+      <br></br>
       <hr></hr>
       <Footer />
     </div>

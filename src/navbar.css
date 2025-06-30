@@ -29,7 +29,7 @@ body{
     .imgmlsamiet{
         height: 1rem;
         width: 6rem;
-        margin-left: 6rem;
+        text-align: end;
     }
 }
 

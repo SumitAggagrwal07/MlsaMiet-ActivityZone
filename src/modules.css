@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    width: 85%;
+    width: 90%;
     border: 1px solid;
     font-size: 1.5rem;
     margin-top: 1.5rem;
@@ -39,7 +39,7 @@
     justify-content: center;
     align-items: center;
     height: 4rem;
-    width: 85%;
+    width: 90%;
     border: 1px solid black;
     font-size: 1.5rem;
     margin-top: 1.5rem;
@@ -58,7 +58,7 @@
   scroll-margin-top: 8rem;
 }
 
-@media (max-width: 868px) {
+@media (max-width: 968px) {
     .moduleheading{
         font-size: 1.5rem;
     }
@@ -80,4 +80,25 @@
         margin-top: 28rem;
         margin-left: 2rem;
     }
+}
+
+@media (max-width: 1245px) and (min-width: 968px){
+  .modules{
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .moduleheading{
+    margin-top:50rem;
+    font-size: 5rem;
+  }
+  .moduleanchor{
+    font-size: 3rem;
+    height: 10rem;
+    border-radius: 2rem;
+}
+  .anchorsubmit{
+    font-size: 3rem;
+    height: 10rem;
+    border-radius: 2rem;
+  }
 }

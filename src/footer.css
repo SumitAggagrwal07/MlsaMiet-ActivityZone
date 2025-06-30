@@ -32,7 +32,7 @@
     color: rgb(37, 94, 154);
 }
 
-@media (max-width: 868px) {
+@media (max-width: 768px) {
     .followus{
         font-size: 1.5rem;
     }
@@ -42,4 +42,23 @@
     .iconmargin{
         margin-left: 1.2rem;
     }
+}
+
+@media (max-width: 1245px) and (min-width: 768px) {
+  .footer{
+    margin-top: 3rem;
+  }
+  .followus{
+    font-size: 3rem;
+  }
+  .icon{
+    font-size: 2.5rem !important;
+  }
+  .contact{
+    font-size: 3rem;
+  }
+  .rights{
+    flex-wrap: wrap;
+    font-size: 2rem;
+  }
 }
